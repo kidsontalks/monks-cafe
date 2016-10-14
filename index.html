@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Monk’s Cafe</title>    
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="./css/main.css" media="all" rel="stylesheet" type="text/css">
+    <!--[if IE 8]><link href="./css/main-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+</head>
+<body>
+    <main id="content" role="main">
+        <div class="grid-row">
+            <div class="column-full center">
+                <h1 class="heading-xlarge">Monk’s Cafe <span class=
+                "heading-secondary">“The Coffee Shop”</span></h1><img alt=
+                "Group of people laughing, eating at a table" src=
+                "images/toms-food.jpg" width="100%">
+                <h2 class="heading-large">Reservations</h2>
+            </div>
+            <div class="column-one-half">
+                <h3 class="heading-medium center">Make a reservation</h3>
+                <div class="form-group">
+                    <label class="form-label" for="name-2">Name</label>
+                    <input class="form-control" id="name-2" name="name-2" type=
+                    "text">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="day-2">Day</label>
+                    <input class="form-control" id="day-2" name="day-2" type=
+                    "text">
+                </div><input class="button" type="submit" value=
+                "Confirm Reservation">
+            </div>
+            <div class="column-one-half center">
+                <h3 class="heading-medium center">Existing Reservations</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Day</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Joe Bloggs</td>
+                            <td>Tuesday 13th July</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Bloggs</td>
+                            <td>Tuesday 13th July</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="column-full center">
+                <h2 class="heading-large">Come Dine with Us</h2>
+                <div id="map"></div>                   
+                <h2 class="heading-large">Customer Reviews</h2>
+            </div>
+            <div class="column-one-half center"><img alt=
+            "Large bowl of salad, on a table with cutlery" src=
+            "images/toms-review.jpg" width="100%"></div>
+            <div class="column-one-half center">
+                <p>“Big lettuce, big carrots, tomatoes like volleyballs.”</p>
+                <p>— Jerry Seinfeld, on The BIG Salad</p>
+            </div>
+        </div><!--grid-row-->
+    </main><!-- custom js -->
+    <script src="./js/main.js">
+    </script> <!-- google maps -->
+    <script async defer src=
+    "https://maps.googleapis.com/maps/api/js?key=AIzaSyCtt0RKBVgh4Wce4TYWcK2NV2IdYH4g8dE&callback=initMap">
+    </script>
+</body>
+</html>
